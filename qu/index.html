@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined" rel="stylesheet" />
+    <title>Lista de tarefas</title>
+</head>
+<body>
+    <h1>Lista de tarefas</h1>
+    
+    <header>
+        <input id="inputTarefa" type="text" placeholder="Digite sua Tarefa">
+        <button onclick="addTarefa()" id="btn-add" class="add">Enviar</button>
+    </header>
+
+    <main id="areaLista">
+        <div class="item clicado">
+            <div class="item-icone">
+                <span class="material-symbols-outlined" id="checkCircle">
+                    check_circle
+                </span>
+            </div>
+            <div class="item-nome">
+                TESTE DE TAREFA
+            </div>
+            <div class="item-botao">
+                <button class="delete"><span class="material-symbols-outlined">delete</span>Deletar</button>
+            </div>
+        </div>
+    </main>
+      
+    <script src="script.js"></script>    
+</body>
+</html>
